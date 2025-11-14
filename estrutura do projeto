@@ -1,0 +1,22 @@
+automatch-career/
+├── .github/
+│   └── workflows/
+│       └── weekly-scraper.yml    # GitHub Actions
+├── src/
+│   ├── scraper/
+│   │   ├── __init__.py
+│   │   ├── linkedin_scraper.py
+│   │   └── github_jobs.py
+│   ├── matching/
+│   │   ├── __init__.py
+│   │   └── matcher.py
+│   ├── notion/
+│   │   ├── __init__.py
+│   │   └── client.py
+│   └── config/
+│       ├ __init__.py
+│       └ settings.py
+├── tests/
+├── requirements.txt
+├── main.py
+└── README.md
